@@ -1,0 +1,43 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: fcitx5-sayura
+Source: https://download.fcitx-im.org/fcitx5-sayura/
+
+Files: *
+Copyright:
+ 2012-2022 CSSlayer <wengxt@gmail.com>
+ 2012~2012 Yichao Yu
+License: GPL-2.0-or-later
+
+Files: debian/*
+Copyright:
+ 2022 Boyuan Yang <byang@debian.org>
+License: CC0-1.0
+
+Files:
+ org.fcitx.Fcitx5.Addon.Sayura.metainfo.xml.in
+Copyright:
+ 2012-2022 CSSlayer <wengxt@gmail.com>
+ 2012~2012 Yichao Yu
+License: CC0-1.0
+
+License: CC0-1.0
+ On Debian systems, the full text of the CC0 1.0 Universal License
+ can be found in the file `/usr/share/common-licenses/CC0-1.0'.
+
+License: GPL-2.0-or-later
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the
+ Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,
+ MA 02110-1301, USA.
+ .
+ On Debian systems, the full text of GPL-2 could be found at
+ `/usr/share/common-licenses/GPL-2'.

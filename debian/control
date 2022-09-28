@@ -1,0 +1,33 @@
+Source: fcitx5-sayura
+Section: utils
+Priority: optional
+Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Uploaders:
+ Boyuan Yang <byang@debian.org>,
+Build-Depends:
+ cmake,
+ debhelper-compat (= 13),
+ extra-cmake-modules,
+ gettext,
+ libfcitx5core-dev,
+ pkg-config,
+Standards-Version: 4.6.0
+Homepage: https://github.com/fcitx/fcitx5-sayura
+Vcs-Git: https://salsa.debian.org/input-method-team/fcitx5-sayura.git
+Vcs-Browser: https://salsa.debian.org/input-method-team/fcitx5-sayura
+
+Package: fcitx5-sayura
+Architecture: any
+Multi-Arch: same
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Recommends:
+ fcitx5,
+Conflicts:
+ fcitx-sayura,
+Description: Fcitx5 wrapper for Sayura IM engine
+ fcitx5-sayura is a wrapper of Sayura IM engine for Fcitx5 IM framework.
+ .
+ Sayura is a quasi-transliteration scheme for Sinhala script.
+ Sayura uses individual Latin characters to signify unmodified consonants.
