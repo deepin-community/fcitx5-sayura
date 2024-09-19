@@ -1,8 +1,12 @@
-fcitx5-sayura (5.0.6-1) UNRELEASED; urgency=medium
+fcitx5-sayura (5.0.6-1deepin0) unstable; urgency=medium
 
+  [ Debian Input Method Team ]
   * update
 
- -- Debian Input Method Team <debian-input-method@lists.debian.org>  Thu, 16 Jun 2022 18:16:32 +0800
+  [ Tianyu Chen ]
+  * No source change upload against GCC 12.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Thu, 19 Sep 2024 22:46:49 +0800
 
 fcitx5-sayura (5.0.6-1) unstable; urgency=medium
 
